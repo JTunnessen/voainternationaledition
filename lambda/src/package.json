@@ -1,0 +1,26 @@
+{
+  "name": "voa_international_edition",
+  "version": "1.0.0",
+  "description": "Quick, informative, fun. VOA’s International Edition brings the world together with U.S. perspectives. Experts, analysts, social media views and newsmakers themselves help tell today’s stories everyone wants to hear. Brighten your day with VOA’s International Edition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "Go up one directory to start the test && exit -1"
+  },
+  "keywords": [
+    "VOA",
+    "Voice of America",
+    "International",
+    "news",
+    "streaming",
+    "broadcast"
+  ],
+  "author": "Amazon.com",
+  "license": "See license in ../../LICENSE.txt",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  }
+}

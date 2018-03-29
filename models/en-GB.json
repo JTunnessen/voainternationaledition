@@ -1,0 +1,59 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "voa international edition",
+      "intents": [
+        {
+          "name": "PlayAudio",
+          "samples": [
+            "play",
+            "start",
+            "play my broadcast",
+            "play my broadcast please",
+            "start my broadcast",
+            "start my broadcast please",
+            "start the broadcast",
+            "start the broadcast please",
+            "start the audio",
+            "start the audio please",
+            "play the audio",
+            "play the audio please",
+            "start the podcast",
+            "start the podcast please",
+            "play the podcast",
+            "play the podcast please"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent"
+        },
+        {
+          "name": "AMAZON.ResumeIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help me please",
+            "help please",
+            "what should i do",
+            "what's next",
+            "how can I listen to my radio",
+            "tell me how to play",
+            "tell me how to stop",
+            "tell me how to resume",
+            "how to stop"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        },
+        {
+          "name": "AMAZON.StartOverIntent"
+        }
+      ]
+    }
+  }
+}
