@@ -2,16 +2,16 @@
 
 let en = {
     card : {
-        title: 'My Radio',
-        subtitle: 'Less bla bla, more la la',
-        cardContent: "Visit our web site https://www.myradio.com",
+        title: 'Voice of America International Edition',
+        subtitle: 'VOA Internatioal News',
+        cardContent: "Visit our web site https://www.voanews.com",
         image: {
             largeImageUrl: 'https://s3.amazonaws.com/alexademo.ninja/maxi80/alexa-artwork-1200.png',
             smallImageUrl: 'https://s3.amazonaws.com/alexademo.ninja/maxi80/alexa-artwork-720.png'
         }
     },
-    url: 'https://audio1.maxi80.com',
-    startJingle : 'https://s3.amazonaws.com/alexademo.ninja/maxi80/jingle.m4a'    
+    url: 'https://www.voanews.com/podcast/?count=20&zoneId=1451',
+    //startJingle : 'https://s3.amazonaws.com/alexademo.ninja/maxi80/jingle.m4a'    
 };
 
 let de = { // TODO add german translation
@@ -24,8 +24,8 @@ let de = { // TODO add german translation
             smallImageUrl: 'https://s3.amazonaws.com/alexademo.ninja/maxi80/alexa-artwork-720.png'
         }
     },
-    url: 'https://audio1.maxi80.com',
-    startJingle : 'https://s3.amazonaws.com/alexademo.ninja/maxi80/jingle.m4a'        
+    url: 'https://www.voanews.com/podcast/?count=20&zoneId=1451',
+    //startJingle : 'https://s3.amazonaws.com/alexademo.ninja/maxi80/jingle.m4a'        
 } 
 
 let globalAudioData = {

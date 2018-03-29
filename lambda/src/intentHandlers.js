@@ -62,6 +62,7 @@ var constants = require('./constants');
 }
 
 */
+/*
 function shouldPlayJingle(userId) {
 
     return new Promise( (resolve, reject) => {
@@ -102,7 +103,7 @@ function shouldPlayJingle(userId) {
         });
     });
 }
-
+*/
 var intentHandlers = {
     'LaunchRequest': function () {
         this.emit('PlayAudio');
@@ -111,26 +112,12 @@ var intentHandlers = {
 
         let request = this.event.request;
 
-        //is the jingke URL defined ?
-        if (audioData(request).startJingle) {
-
-            //should we play the jingle ?
-            shouldPlayJingle(this.event.session.user.userId).then(shouldPlayJingleResult => {
-                // play a jingle first, then the live stream or play the live stream
-                // depending on return value from shouldPlayJingle()
-                // (live stream will be started when we will receive Playback Nearly Finished event)
-                controller.play.call(this,
-                                     this.t('WELCOME_MSG', {skillName: audioData(request).card.title}), shouldPlayJingleResult ? audioData(request).startJingle : audioData(request).url, audioData(request).card);
-            });
-
-        } else {
-
             // play the radio directly
             controller.play.call(this, this.t('WELCOME_MSG', {
                 skillName: audioData(request).card.title
             }), audioData(request).url, audioData(request).card);
 
-        }
+        
     },
     'AMAZON.HelpIntent': function () {
         this.response.listen(this.t('HELP_MSG', {

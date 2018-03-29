@@ -2,7 +2,7 @@
 
 let AWS = require('aws-sdk');
 let constants = require('./constants.js');
-
+/*
 function getFromDDB(userId) {
     return new Promise((resolve, reject) => {
         var params = {
@@ -57,10 +57,11 @@ function insertOrUpdateDDB(userId) {
         });
     });
 }
-
+*/
 /*
  * Used for unit testing only, to prepare the database before the test
  */
+ /*
 function deleteFromDDB(userId) {
 
     return new Promise((resolve, reject) => {
@@ -88,3 +89,4 @@ function deleteFromDDB(userId) {
 }
 
 module.exports = { getFromDDB, insertOrUpdateDDB, deleteFromDDB }
+*/

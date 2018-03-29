@@ -10,10 +10,10 @@ module.exports = Object.freeze({
 
     // when defined, it tries to read / write DynamoDB to save the last time Jingle was played for that user
     // this allows to avoid to repaet the jingle at each invocation 
-    jingle : {
-        databaseTable : "my_radio",
-        playOnceEvery : 1 * 60 * 60 * 24 // 24 hours
+    //jingle : {
+        //databaseTable : "my_radio",
+        //playOnceEvery : 1 * 60 * 60 * 24 // 24 hours
         //playOnceEvery : 1 * 60 * 3 // 3 minutes 
-    }
+    //}
 
 });
